@@ -1,0 +1,11 @@
+// process.env 변수값을 작성한다. 환경 변수 지정
+{
+    "name": "nemv",
+    "version": "0.0.1",
+    "scripts": {
+      "dev": "NODE_ENV=development node ./be/bin/www",
+      "pr": "NODE_ENV=production node ./be/bin/www"
+    },
+    "dependencies": {}
+  }
+  
